@@ -1,6 +1,6 @@
 #pragma once
 
-#include "include/ShaderInfo.h"
+#include "../../include/ShaderInfo.h"
 #include <vector>
 
 class HLSLCrossCompilerContext;

@@ -21,6 +21,9 @@
 #include <stdint.h>
 #include <string.h>
 
+#pragma warning( disable : 4267 )
+#pragma warning( disable : 4018 )
+
 typedef enum
 {
     LANG_DEFAULT,// Depends on the HLSL shader model.

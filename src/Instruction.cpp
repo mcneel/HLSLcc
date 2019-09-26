@@ -1,6 +1,6 @@
 #include "internal_includes/Instruction.h"
 #include "internal_includes/debug.h"
-#include "include/ShaderInfo.h"
+#include "../include/ShaderInfo.h"
 
 // Returns the result swizzle operand for an instruction, or NULL if all src operands have swizzles
 static Operand *GetSrcSwizzleOperand(Instruction *psInst)

@@ -4,7 +4,7 @@
 #include "internal_includes/HLSLCrossCompilerContext.h"
 #include "internal_includes/Shader.h"
 #include "internal_includes/languages.h"
-#include "include/UnityInstancingFlexibleArraySize.h"
+#include "../include/UnityInstancingFlexibleArraySize.h"
 #include <sstream>
 #include <cmath>
 

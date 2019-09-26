@@ -7,7 +7,7 @@
 #include "growing_array.h"
 #include "internal_includes/tokens.h"
 #include "internal_includes/reflect.h"
-#include "include/ShaderInfo.h"
+#include "../../include/ShaderInfo.h"
 #include "internal_includes/Instruction.h"
 #include "internal_includes/Declaration.h"
 #include "internal_includes/ControlFlowGraph.h"

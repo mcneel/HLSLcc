@@ -7,7 +7,7 @@
 #include "internal_includes/debug.h"
 #include "internal_includes/Translator.h"
 #include "internal_includes/ControlFlowGraph.h"
-#include "include/hlslcc.h"
+#include "../include/hlslcc.h"
 #include <sstream>
 
 void HLSLCrossCompilerContext::DoDataTypeAnalysis(ShaderPhase *psPhase)
