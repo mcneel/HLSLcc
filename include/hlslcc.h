@@ -21,6 +21,8 @@
 #include <stdint.h>
 #include <string.h>
 
+// 26 Sept 2019 S. Baer disable some warnings in this project
+// TODO: remove these and fix the warnings
 #pragma warning( disable : 4267 )
 #pragma warning( disable : 4018 )
 
