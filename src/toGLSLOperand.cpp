@@ -718,7 +718,8 @@ void ToGLSL::TranslateVariableNameWithMask(bstring glsl, const Operand* psOperan
                             std::string name = psContext->GetDeclaredInputName(psOperand, piRebase, 0, pui32IgnoreSwizzle);
 
                             // Rewrite the variable name if we're using framebuffer fetch
-                            if (psContext->psShader->extensions->EXT_shader_framebuffer_fetch &&
+                            if (psContext->psShader->extensions &&
+                                psContext->psShader->extensions->EXT_shader_framebuffer_fetch &&
                                 psContext->psShader->eShaderType == PIXEL_SHADER &&
                                 psContext->flags & HLSLCC_FLAG_SHADER_FRAMEBUFFER_FETCH)
                             {

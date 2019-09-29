@@ -299,7 +299,9 @@ static void AddVersionDependentCode(HLSLCrossCompilerContext* psContext)
         psContext->RequireExtension("GL_ARB_fragment_coord_conventions");
     }
 
-    if (psContext->psShader->extensions->EXT_shader_framebuffer_fetch && psContext->psShader->eShaderType == PIXEL_SHADER && psContext->flags & HLSLCC_FLAG_SHADER_FRAMEBUFFER_FETCH)
+    if (psContext->psShader->extensions
+        && psContext->psShader->extensions->EXT_shader_framebuffer_fetch
+        && psContext->psShader->eShaderType == PIXEL_SHADER && psContext->flags & HLSLCC_FLAG_SHADER_FRAMEBUFFER_FETCH)
     {
         psContext->EnableExtension("GL_EXT_shader_framebuffer_fetch");
     }
